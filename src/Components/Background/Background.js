@@ -1,30 +1,28 @@
-import './Background.css'
-import video1 from '../../assets/video1.mp4'
-import image1 from '../../assets/image1.png'
-import image2 from '../../assets/image2.png'
-import image3 from '../../assets/image3.png'
+import React, { useState, useEffect } from 'react';
+import './Background.css';
+import image1 from '../../assets/image1.png';
+import image2 from '../../assets/image2.png';
+import image3 from '../../assets/image3.png';
 
-export const Background = ({playStatus,heroCount}) => {
+const images = [image1, image2, image3]; // Array of images
 
-  if (playStatus) {
-    return (
-      <video className='background' autoPlay loop mutued>
-         <source src={video1} type='video/mp4'></source>
-      </video>
-     
-    )
-  }
-  else if(heroCount===0) 
-    {  
-      return <img src={image1} className='background fade-in'  alt="" />
-}
-else if(heroCount===1) 
-  {  
-    return <img src={image2} className='background fade-in'  alt="" />
-}
-else if(heroCount===2) 
-  {  
-    return <img src={image3} className='background fade-in'  alt="" />
-}
-}
-export default Background
+export const Background = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000); // Change image every 3 seconds
+    return () => clearInterval(interval); // Cleanup on component unmount
+  }, []);
+
+  return (
+    <img
+      src={images[currentImageIndex]}
+      className="background fade-in"
+      alt="Background"
+    />
+  );
+};
+
+export default Background;

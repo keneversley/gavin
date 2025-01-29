@@ -1,7 +1,6 @@
 import './Hero.css'
 import arrow_btn from '../../assets/arrow_btn.png'
-// import play_icon from '../../assets/play_icon.png'
-// import pause_icon from '../../assets/pause_icon.png'
+
 
 export const Hero = ({heroData, setHeroCount, heroCount, setPlayStatus, playStatus}) => {
   return (
@@ -20,12 +19,7 @@ export const Hero = ({heroData, setHeroCount, heroCount, setPlayStatus, playStat
           <li onClick={()=>setHeroCount(1)} className={heroCount===1?"hero-dot orange":"hero-dot"}></li>
           <li onClick={()=>setHeroCount(2)} className={heroCount===2?"hero-dot orange":"hero-dot"}></li>
         </ul>
-        <div className='hero-play'>
-          {/* <img onClick={()=>setPlayStatus(!playStatus)} src={playStatus?pause_icon:play_icon} alt="" /> */}
-          {/* <p>See the video</p> */}
-
-
-        </div>
+     
 
       </div>
     </div>

@@ -13,12 +13,20 @@ const About = () => {
     <div className="min-h-screen bg-gray-100 p-8">
       <h1 className="text-4xl font-bold text-center mb-6">About Us</h1>
       <p className="text-lg text-gray-700 text-center">
-        Welcome to the About page of Gavin Stewart. Our mission is to provide top-quality services and build meaningful relationships with our customers. Here, you can learn more about our vision, values, and what sets us apart.
+      Welcome to GS Experience, where we provide top-tier accounting and financial services tailored to meet the unique needs of both businesses and individuals.
       </p>
       <div className="mt-8">
         <h2 className="text-2xl font-semibold mb-4">Our Journey</h2>
         <p className="text-gray-600">
-          Gavin Stewart was founded with the goal of delivering excellence. Over the years, we have grown into a trusted name, known for our commitment to innovation and customer satisfaction. Join us as we continue this exciting journey.
+        At GS Experience, an innovative accounting startup backed by over 20 years of expertise across diverse industries, we specialize in delivering precise, efficient, and personalized financial solutions designed to empower clients to make informed decisions.
+
+We understand that launching a business is both an exciting and challenging endeavor, particularly when it comes to managing finances. Our focus is on helping businesses establish a robust financial foundation from the outset. We ensure that your accounting systems are not only set up correctly but are also scalable to support your business's growth and evolution.
+
+More than just traditional consultants, we are dedicated partners in your journey. We collaborate closely with you to design and implement customized processes and procedures tailored to your unique business needs. Our approach is centered on streamlining operations, optimizing account management, and creating a seamless financial experience that serves as the cornerstone of your business.
+
+Our mission is clear: to provide accurate, reliable, and innovative financial services that enable your business to thrive in today’s dynamic marketplace. We are committed to building enduring relationships with our clients, founded on trust, integrity, and exceptional service.
+
+At GS Experience, we don’t just manage your accounting—we become a trusted partner who truly understands your business and collaborates with you to drive sustainable growth. Our goal is to equip you with the financial clarity and strategic insights needed to make smart, forward-thinking decisions that pave the way for lasting success.
         </p>
       </div>
     </div>

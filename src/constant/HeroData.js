@@ -1,19 +1,39 @@
-import { sliderOne, sliderThree, sliderTwo } from "../assets";
+import { sliderOne, sliderThree, sliderTwo, sliderFour, sliderFive, sliderSix, sliderSeven } from "../assets";
 
 export const slides=[
     {
         image:sliderOne,
-        text:'Dive into',
-        text1:'what you love',
+        text:'Your Financial Foundation',
+        text1:'Starts Here',
     },
     {
         image:sliderTwo,
-        text:'Indulge',
-        text1:'your passions',
+        text:'Start Strong',
+        text1:'Stay Strong',
     },
     {
         image:sliderThree,
-        text:'Give in to',
-        text1:'your passions',
+        text:'Building Better Beginnings',
+        text1:'for Your Business',
+    },
+    {
+        image:sliderFour,
+        text:'A Strong Start ',
+        text1:'For a Successful Future',
+    },
+    {
+        image:sliderFive,
+        text:'Set Your Finances',
+        text1:'On the Right Path from Day One',
+    },
+    {
+        image:sliderSix,
+        text:'Where Your Business Journey',
+        text1:'Begins with Financial Clarity',
+    },
+    {
+        image:sliderSeven,
+        text:'Starting with Precision',
+        text1:'Growing with Purpose',
     }
 ]

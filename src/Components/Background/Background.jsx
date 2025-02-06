@@ -3,11 +3,12 @@ import './Background.css';
 import image1 from '../../assets/image1.png';
 import image2 from '../../assets/image2.png';
 import image3 from '../../assets/image3.png';
+import image4 from '../../assets/image4.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
 
-const images = [image1, image2, image3]; // Array of images
+const images = [image1, image2, image3, image4, image5, image6, image7]; // Array of images
 
 export const Background = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -40,6 +41,22 @@ export const Background = () => {
     <div>
         <img src={image3} alt="Slide 3" />
         <p className="legend">Legend 3</p>
+    </div>
+    <div>
+        <img src={image4} alt="Slide 4" />
+        <p className="legend">Legend 4</p>
+    </div>
+    <div>
+        <img src={image5} alt="Slide 5" />
+        <p className="legend">Legend 5</p>
+    </div>
+    <div>
+        <img src={image6} alt="Slide 6" />
+        <p className="legend">Legend 6</p>
+    </div>
+    <div>
+        <img src={image7} alt="Slide 7" />
+        <p className="legend">Legend 7</p>
     </div>
 </Carousel>
 

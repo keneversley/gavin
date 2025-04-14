@@ -21,7 +21,7 @@ export const navData=[
     },
     {
         _id:5,
-        tilte:'Cotact',
+        tilte:'Contact',
         link:'/contact',
     }
 ]

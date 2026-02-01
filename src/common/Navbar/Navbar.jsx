@@ -15,11 +15,11 @@ export const Navbar = () => {
         {/* Logo */}
         <div className="text-xl font-bold text-orange-400 flex">
           <a
-            href={navData.find((item) => item.tilte === "GAVIN STEWART")?.link}
+            href={navData.find((item) => item.tilte === "GS EXPERIENCE")?.link}
             className="flex items-center space-x-2 "
           >
             <span>
-              {navData.find((item) => item.tilte === "GAVIN STEWART")?.tilte ||
+              {navData.find((item) => item.tilte === "GS EXPERIENCE")?.tilte ||
                 "Brand"}
             </span>
           </a>

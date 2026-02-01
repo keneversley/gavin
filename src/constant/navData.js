@@ -1,7 +1,7 @@
 export const navData=[
     {
         _id:1,
-        tilte:'GAVIN STEWART',
+        tilte:'GS EXPERIENCE',
         link:'/',
     },
     {

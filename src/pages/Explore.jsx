@@ -65,12 +65,12 @@ const Explore = () => {
             <li>Monthly close supervision and data clean-up</li>
           </ul>
 
-          <h3 className="font-semibold mb-2">Fundraising & Financial Readiness</h3>
+          {/* <h3 className="font-semibold mb-2">Fundraising & Financial Readiness</h3>
           <ul className="list-disc list-inside text-gray-600">
             <li>Investor reporting & KPI dashboards</li>
             <li>Financial models for fundraising</li>
             <li>Due diligence support</li>
-          </ul>
+          </ul> */}
         </div>
 
         {/* Column 2 */}
@@ -101,7 +101,7 @@ const Explore = () => {
 
           <h3 className="font-semibold mb-2">Systems & Technology</h3>
           <ul className="list-disc list-inside text-gray-600">
-            <li>Shopify, ShipBob, ShipStation, Cin7, Skubana setup</li>
+            <li>Shopify, ShipBob, ShipStation, Amazon</li>
             <li>Order routing & fulfillment automation</li>
             <li>Packaging, shipping, and warehouse optimization</li>
           </ul>

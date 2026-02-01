@@ -71,9 +71,9 @@ const Contact = () => {
       </div>
       <div className="mt-8 text-center">
   <h2 className="text-2xl font-semibold mb-4">Contact Information</h2>
-  <p className="text-gray-600">Phone: (123) 456-7890</p>
-  <p className="text-gray-600">Email: support@example.com</p>
-  <p className="text-gray-600">Address: 123 Main Street, Anytown, USA</p>
+  <p className="text-gray-600">Phone: (860) 748-7082</p>
+  <p className="text-gray-600">Email: gsexperiencellc@gmail.com</p>
+  {/* <p className="text-gray-600">Address: 123 Main Street, Anytown, USA</p> */}
 </div>
 
     </div>
